@@ -2,8 +2,9 @@ export default function Home() {
   return (
     <div className="bg-blue-100 py-20 px-10 text-blue-900">
       <div className="container mx-auto">
+        <img className="w-12" src="img/gb_icon.png" />
         <h1 className="mb-12 text-5xl font-bold text-center bg-gradient-to-br from-blue-700 to-red-400 text-transparent bg-clip-text">
-          Good Bots
+          GoodBots.io
         </h1>
         <h2 className="mb-8 text-2xl">
           We help you build a chatbot experience that will grow your audience
