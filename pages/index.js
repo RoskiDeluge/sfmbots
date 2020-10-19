@@ -49,7 +49,7 @@ export default function Home() {
             </span>
             <span>
               <br />
-              For $59/month, we will build and manage your chatbot.
+              For $59/month, we will build and manage your scheduling chatbot.
             </span>
           </div>
         </div>
