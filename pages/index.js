@@ -16,7 +16,7 @@ export default function Home() {
           <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <a href="https://m.me/sfirstm?ref=book_call" target="_blank">
               <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
-                Schedule an appointment
+                Demo link
               </span>
             </a>
             <span>
@@ -24,18 +24,34 @@ export default function Home() {
               the scheduling chatbot in Facebook Messenger.
             </span>
           </div>
-          {/* <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
+          <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
-              Step 2
+              <a
+                href="https://roberto309082.typeform.com/to/jEEURXrN"
+                target="_blank"
+              >
+                Sign up for the course
+              </a>
             </span>
-            <span>Link your bot with your Facebook page</span>
+            <span>
+              <br />
+              We will teach you how to build the chatbot step by step.
+            </span>
           </div>
           <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
-              Step 3
+              <a
+                href="https://roberto309082.typeform.com/to/ASsuyb3Y"
+                target="_blank"
+              >
+                Buy a chatbot
+              </a>
             </span>
-            <span>Create a welcome sequence for your audience</span>
-          </div> */}
+            <span>
+              <br />
+              For $59/month, we will build and manage your chatbot.
+            </span>
+          </div>
         </div>
         <div className="prose">
           <h2>Why use a chatbot?</h2>
