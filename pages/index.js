@@ -2,34 +2,29 @@ export default function Home() {
   return (
     <div className="bg-blue-100 py-20 px-10 text-blue-900">
       <div className="container mx-auto">
-        <img className="w-12" src="img/gb_icon.png" />
+        {/* <img className="w-12" src="img/gb_icon.png" /> */}
         <h1 className="mb-12 text-5xl font-bold text-center bg-gradient-to-br from-blue-700 to-red-400 text-transparent bg-clip-text">
-          GoodBots.io
+          Scheduling Chatbot Demo Site
         </h1>
         <h2 className="mb-8 text-2xl">
           We help you build a chatbot experience that will grow your audience
-          and drive conversions within your existing marketing campaigns.
+          and drive conversions within your existing marketing campaigns. -
+          GoodBots.io
         </h2>
         {/* Sales Copy: Dream/Pain/Fix */}
-        <div className="mb-10 text-1xl relative">
-          <div className="absolute text-3xl top-0 left-o select-none transform -translate-y-5 -translate-x-0 opacity-25">
-            🤖 💙 💻 📱
-          </div>
-          <p>
-            Grow your audience naturally and conversationally. Go where your
-            audience is and talk to them. Gather specific insights about the
-            type of content that your audience likes.
-          </p>
-        </div>
-        <p></p>
         <div className="my-10 grid grid-cols-1 lg:grid-cols-4 gap-4">
           <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
-            <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
-              Step 1
+            <a href="https://m.me/sfirstm?ref=book_call" target="_blank">
+              <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
+                Schedule an appointment
+              </span>
+            </a>
+            <span>
+              <br />A button or link on your site starts the conversation with
+              the scheduling chatbot in Facebook Messenger.
             </span>
-            <span>Create a bot</span>
           </div>
-          <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
+          {/* <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
               Step 2
             </span>
@@ -40,26 +35,44 @@ export default function Home() {
               Step 3
             </span>
             <span>Create a welcome sequence for your audience</span>
-          </div>
+          </div> */}
         </div>
         <div className="prose">
-          <h2>This is a new section</h2>
+          <h2>Why use a chatbot?</h2>
           <p>
-            XOXO pour-over shaman, squid listicle gastropub lyft typewriter
-            selfies whatever sustainable chillwave. Polaroid farm-to-table
-            kombucha etsy leggings.
+            Chatbots are a great way to interact with your audience even when
+            you're not around. You can use this scheduling bot to manage your
+            appointments.
           </p>
-          <p>
-            Kogi hexagon pug palo santo forage post-ironic squid kitsch echo
-            park williamsburg. Beard 8-bit humblebrag YOLO, raw denim mumblecore
-            semiotics whatever copper mug hoodie live-edge quinoa trust fund
-            post-ironic paleo.
-          </p>
+          <h2>Benefits of using a scheduling chatbot:</h2>
+          <ul>
+            <li>Saves you time and frees up staff for other work.</li>
+            <li>
+              Automatically sends appointment reminders so customers keep their
+              appointments.
+            </li>
+            <li>
+              Simple and easy to use interface that customers are used to.
+            </li>
+            <li>
+              You can receive realtime notifications everytime a visitor
+              schedules an appointment within your specified working hours.
+            </li>
+            <li>Manage your appointments through Google calendar.</li>
+          </ul>
         </div>
         {/* Features */}
         {/* Buy Button */}
         {/* Testimonials */}
         {/* FAQ's */}
+      </div>
+      <div className="text-xs text-blue-500 my-10 flex justify-center">
+        Demo site made by
+        <span className="text-blue-500 underline px-1">
+          <a href="https://sfirstm.com/" targe="_blank">
+            SFM
+          </a>
+        </span>
       </div>
     </div>
   );
