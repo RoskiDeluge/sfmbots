@@ -4,7 +4,7 @@ export default function Home() {
       <div className="container mx-auto">
         {/* <img className="w-12" src="img/gb_icon.png" /> */}
         <h1 className="mb-12 text-5xl font-bold text-center bg-gradient-to-br from-blue-700 to-red-400 text-transparent bg-clip-text">
-          Scheduling Chatbot Demo Site
+          Scheduling Chatbot
         </h1>
         <h2 className="mb-8 text-2xl">
           We help you build a chatbot experience that will grow your audience
@@ -83,7 +83,7 @@ export default function Home() {
         {/* FAQ's */}
       </div>
       <div className="text-xs text-blue-500 my-10 flex justify-center">
-        Demo site made by
+        Made by
         <span className="text-blue-500 underline px-1">
           <a href="https://sfirstm.com/" targe="_blank">
             SFM
