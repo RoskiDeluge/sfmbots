@@ -7,15 +7,14 @@ export default function Home() {
           Scheduling Chatbot
         </h1>
         <h2 className="mb-8 text-2xl">
-          We help you build a chatbot experience that will grow your audience
-          and drive conversions within your existing marketing campaigns. -
-          GoodBots.io
+          We help you build a chatbot experience that delights your customers
+          and saves you time. - ChatBert
         </h2>
         {/* Sales Copy: Dream/Pain/Fix */}
         <div className="my-10 grid grid-cols-1 lg:grid-cols-4 gap-4">
           <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <a href="https://m.me/sfirstm?ref=book_call" target="_blank">
-              <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
+              <span className="inline-block py-1 px-3 rounded bg-yellow-400 text-blue-900">
                 Demo link
               </span>
             </a>
@@ -49,16 +48,22 @@ export default function Home() {
             </span>
             <span>
               <br />
-              For $59/month, we will build and manage your scheduling chatbot.
+              We build and manage your scheduling chatbot.
             </span>
           </div>
         </div>
         <div className="prose">
           <h2>Why use a chatbot?</h2>
           <p>
-            Chatbots are a great way to interact with your audience even when
-            you're not around. You can use this scheduling bot to manage your
-            appointments.
+            A chatbot is a program that mimics human interaction. Chatbots are a
+            great way to interact with your audience even when you're not
+            around.
+          </p>
+          <h2>Where are they used?</h2>
+          <p>
+            Chatbots can be created from scratch and offered as a stand alone
+            application. Or they can be created on the main instant messaging
+            platforms, like Facebook Messenger.
           </p>
           <h2>Benefits of using a scheduling chatbot:</h2>
           <ul>
