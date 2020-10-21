@@ -6,15 +6,18 @@ export default function Home() {
         <h1 className="mb-12 text-5xl font-bold text-center bg-gradient-to-br from-blue-700 to-red-400 text-transparent bg-clip-text">
           Scheduling Chatbot
         </h1>
-        <h2 className="mb-8 text-2xl">
-          We help you build a chatbot experience that delights your customers
-          and saves you time. - ChatBert{" "}
+        <h2 className="mb-20 text-2xl">
+          <em>
+            We help you build a chatbot experience that delights your customers
+            and saves you time.
+          </em>{" "}
+          - ChatBert{" "}
           <span>
             <img className="w-10 inline-block" src="img/gb_icon.png" />
           </span>
         </h2>
         {/* Sales Copy: Dream/Pain/Fix */}
-        <div className="my-10 grid grid-cols-1 lg:grid-cols-4 gap-4">
+        <div className="my-20 grid grid-cols-1 lg:grid-cols-4 gap-4">
           <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <a href="https://m.me/sfirstm?ref=book_call" target="_blank">
               <span className="inline-block py-1 px-3 rounded bg-yellow-400 text-blue-900">
