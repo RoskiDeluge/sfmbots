@@ -8,7 +8,10 @@ export default function Home() {
         </h1>
         <h2 className="mb-8 text-2xl">
           We help you build a chatbot experience that delights your customers
-          and saves you time. - ChatBert
+          and saves you time. - ChatBert{" "}
+          <span>
+            <img className="w-10 inline-block" src="img/gb_icon.png" />
+          </span>
         </h2>
         {/* Sales Copy: Dream/Pain/Fix */}
         <div className="my-10 grid grid-cols-1 lg:grid-cols-4 gap-4">
