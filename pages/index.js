@@ -40,15 +40,16 @@ export default function Home() {
                 href="https://roberto309082.typeform.com/to/jEEURXrN"
                 target="_blank"
               >
-                Sign up for the course
+                Sign up for the free course
               </a>
             </span>
             <span>
               <br />
-              We will teach you how to build the chatbot step by step.
+              We will teach you how to build the scheduling chatbot step by
+              step.
             </span>
           </div>
-          <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
+          {/* <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
               <a
                 href="https://roberto309082.typeform.com/to/ASsuyb3Y"
@@ -61,7 +62,7 @@ export default function Home() {
               <br />
               We build and manage your scheduling chatbot.
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="prose">
           <h2>Why use a chatbot?</h2>
