@@ -1,3 +1,5 @@
+import ReactPlayer from "react-player";
+
 export default function Home() {
   return (
     <div className="bg-blue-100 py-20 px-10 text-blue-900">
@@ -16,9 +18,12 @@ export default function Home() {
             <img className="w-10 inline-block" src="img/gb_icon.png" />
           </span>
         </h2>
+        <div>
+          <ReactPlayer url="https://www.youtube.com/watch?v=pxo92HED7uo" />
+        </div>
         {/* Sales Copy: Dream/Pain/Fix */}
         <div className="my-20 grid grid-cols-1 lg:grid-cols-4 gap-4">
-          <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
+          {/* <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <a href="https://m.me/sfirstm?ref=book_call" target="_blank">
               <span className="inline-block py-1 px-3 rounded bg-yellow-400 text-blue-900">
                 Demo link
@@ -28,7 +33,7 @@ export default function Home() {
               <br />A button or link on your site starts the conversation with
               the scheduling chatbot in Facebook Messenger.
             </span>
-          </div>
+          </div> */}
           <div className=" bg-white border-2 rounded-lg shadow p-4 text-gray-700 text-xl space-x-3">
             <span className="inline-block py-1 px-3 rounded bg-red-600 text-red-100">
               <a
