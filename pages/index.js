@@ -1,4 +1,4 @@
-import ReactPlayer from "react-player";
+import YouTube from "react-youtube-embed";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           </span>
         </h2>
         <div>
-          <ReactPlayer url="https://www.youtube.com/watch?v=pxo92HED7uo" />
+          <YouTube id="pxo92HED7uo" />
         </div>
         {/* Sales Copy: Dream/Pain/Fix */}
         <div className="my-20 grid grid-cols-1 lg:grid-cols-4 gap-4">
