@@ -13,7 +13,7 @@ export default function Home() {
             We help you build a chatbot experience that delights your customers
             and saves you time.
           </em>{" "}
-          - ChatBert{" "}
+          - sfmbots{" "}
           <span>
             <img className="w-10 inline-block" src="img/gb_icon.png" />
           </span>
